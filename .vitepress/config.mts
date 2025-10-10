@@ -10,15 +10,14 @@ export default defineConfig({
         // https://vitepress.dev/reference/default-theme-config
         nav: [
             { text: "主页", link: "/" },
-            { text: "教程", link: "/markdown-examples" },
+            { text: "vitePress", link: "/vitePress/start" },
         ],
 
         sidebar: [
             {
-                text: "Examples",
+                text: "vitePress",
                 items: [
-                    { text: "Markdown Examples", link: "/markdown-examples" },
-                    { text: "Runtime API Examples", link: "/api-examples" },
+                    { text: "开始", link: "/vitePress/start" },
                 ],
             },
         ],
