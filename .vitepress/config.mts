@@ -11,15 +11,28 @@ export default defineConfig({
         nav: [
             { text: "主页", link: "/" },
             { text: "vitePress", link: "/vitePress/start" },
+            { text: "TypeScript", link: "/TypeScript/start" },
         ],
+        sidebar: {
+            "/vitePress/": [
+                {
+                    text: "vitePress",
+                    items: [{ text: "开始", link: "/vitePress/start" }],
+                },
+            ],
 
-        sidebar: [
-            {
-                text: "vitePress",
-                items: [{ text: "开始", link: "/vitePress/start" }],
-            },
-        ],
+            "/TypeScript/": [
+                {
+                    text: "TypeScript",
+                    items: [{ text: "开始", link: "/TypeScript/start" }],
+                },
+            ],
+        },
 
         socialLinks: [{ icon: "github", link: "https://github.com/hecanfly" }],
+
+        search: {
+            provider: "local",
+        },
     },
 });
