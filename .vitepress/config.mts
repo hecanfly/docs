@@ -16,9 +16,7 @@ export default defineConfig({
         sidebar: [
             {
                 text: "vitePress",
-                items: [
-                    { text: "开始", link: "/vitePress/start" },
-                ],
+                items: [{ text: "开始", link: "/vitePress/start" }],
             },
         ],
 
