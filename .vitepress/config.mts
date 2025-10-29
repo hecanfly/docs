@@ -12,8 +12,18 @@ export default defineConfig({
             { text: "主页", link: "/" },
             { text: "vitePress", link: "/vitePress/start" },
             { text: "TypeScript", link: "/TypeScript/start" },
+            { text: "Prettier_ESLint", link: "/Prettier_ESLint/start" },
+            { text: "Practice", link: "/Practice/start" },
+            { text: "MAC", link: "/MAC/start" },
         ],
         sidebar: {
+            "/Practice/": [
+                {
+                    text: "Practice",
+                    items: [{ text: "开始", link: "/Practice/start" }],
+                },
+            ],
+
             "/vitePress/": [
                 {
                     text: "vitePress",
@@ -25,6 +35,23 @@ export default defineConfig({
                 {
                     text: "TypeScript",
                     items: [{ text: "开始", link: "/TypeScript/start" }],
+                },
+            ],
+
+            "/Prettier_ESLint/": [
+                {
+                    text: "Prettier_ESLint",
+                    items: [{ text: "开始", link: "/Prettier_ESLint/start" }],
+                },
+            ],
+
+            "/MAC/": [
+                {
+                    text: "MAC",
+                    items: [
+                        { text: "开始", link: "/MAC/start" },
+                        { text: "开启Root", link: "/MAC/enable-sudo" },
+                    ],
                 },
             ],
         },
