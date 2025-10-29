@@ -13,3 +13,6 @@ pnpm dev
 https://element-plus.org/zh-CN/guide/installation
 
 ## Prettier格式化
+
+安装：https://www.prettier.cn/docs//install.html
+
