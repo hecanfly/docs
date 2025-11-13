@@ -64,6 +64,12 @@ export default defineConfig({
                     items: [
                         { text: "开始", link: "/npm/start" },
                         { text: "@types/node", link: "/npm/@types-node" },
+                        { text: "eslint-plugin-command", link: "/npm/eslint-plugin-command" },
+                        {
+                            text: "eslint-plugin-eslint-comments",
+                            link: "/npm/eslint-plugin-eslint-comments",
+                        },
+                        { text: "eslint-plugin-import-x", link: "/npm/eslint-plugin-import-x" },
                     ],
                 },
             ],
