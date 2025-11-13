@@ -15,6 +15,7 @@ export default defineConfig({
             { text: "Prettier_ESLint", link: "/Prettier_ESLint/start" },
             { text: "Practice", link: "/Practice/start" },
             { text: "MAC", link: "/MAC/start" },
+            { text: "npm", link: "/npm/start" },
         ],
         sidebar: {
             "/Practice/": [
@@ -51,6 +52,18 @@ export default defineConfig({
                     items: [
                         { text: "开始", link: "/MAC/start" },
                         { text: "开启Root", link: "/MAC/enable-sudo" },
+                        { text: "安装brew", link: "/MAC/安装brew" },
+                        { text: "安装Maccy", link: "/MAC/安装Maccy" },
+                    ],
+                },
+            ],
+
+            "/npm/": [
+                {
+                    text: "npm",
+                    items: [
+                        { text: "开始", link: "/npm/start" },
+                        { text: "@types/node", link: "/npm/@types-node" },
                     ],
                 },
             ],
