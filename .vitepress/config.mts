@@ -15,7 +15,7 @@ export default defineConfig({
             { text: "Prettier_ESLint", link: "/Prettier_ESLint/start" },
             { text: "Practice", link: "/Practice/start" },
             { text: "MAC", link: "/MAC/start" },
-            { text: "npm", link: "/npm/start" },
+            { text: "npm", link: "/docs/npm/start" },
         ],
         sidebar: {
             "/Practice/": [
@@ -58,18 +58,13 @@ export default defineConfig({
                 },
             ],
 
-            "/npm/": [
+            "/docs/": [
                 {
                     text: "npm",
                     items: [
-                        { text: "开始", link: "/npm/start" },
-                        { text: "@types/node", link: "/npm/@types-node" },
-                        { text: "eslint-plugin-command", link: "/npm/eslint-plugin-command" },
-                        {
-                            text: "eslint-plugin-eslint-comments",
-                            link: "/npm/eslint-plugin-eslint-comments",
-                        },
-                        { text: "eslint-plugin-import-x", link: "/npm/eslint-plugin-import-x" },
+                        { text: "开始", link: "/docs/npm/start" },
+                        { text: "@types/node", link: "/docs/npm/@types-node" },
+                        { text: "eslint", link: "/docs/npm/eslint" },
                     ],
                 },
             ],
